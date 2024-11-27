@@ -1,0 +1,22 @@
+以下のinstructionに対して、response1とresponse2のどちらがユーザーにとって適切な応答をしているか判定してください。
+なお、「適切」とは、ユーザーからのinstructionに忠実に従い、提供する情報に過不足がなく、正確な情報を提供できていることを指します。
+- response1がより適切である場合には1を、response2がより適切である場合には2を出力してください。
+- まずはresponse1とresponse2を比較した内容を100語程度で「Analysis: 」の後にまとめ、最終的に判定結果を「Winner: 」の後に出力すること
+- 前置きはせず、フォーマットに従って判定結果のみを取得すること
+
+<instruction>
+INSTRUCTION
+</instruction>
+
+<response1>
+RESPONSE1
+</response1>
+
+<response2>
+RESPONSE2
+</response2>
+
+<format>
+Analysis:
+Winner: 1 or 2
+</format>
